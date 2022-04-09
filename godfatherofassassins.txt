@@ -1,0 +1,62 @@
+Grandfather of Assassins
+Medium humanoid (any race), any non-good
+Armor Class 19 (+2 studded leather armor)
+Hit Points 195 (26d8 + 78)
+Speed 30 ft.
+STR DEX CON INT WIS CHA
+11 (+0) 20 (+5) 16 (+3) 16 (+3) 16 (+3) 14 (+2)
+Saving Throws Dex +12, Wis +10, Int +10
+Skills Acrobatics +12, Deception +9, Perception +17, Stealth +19
+Damage Resistances poison
+Senses darkvision 60 ft., passive Perception 27
+Languages Thieves' cant plus any four languages
+Challenge 21 (30,000 XP)
+Assassinate. During its first turn, the grandfather of assassins has
+advantage on attack rolls against any creature that hasn't taken a
+turn. Any hit the grandfather of assassins scores against a surprised
+creature is a critical hit.
+Cunning Action. On each of its turns, the grandfather of assassins
+can use a bonus action to take the Dash, Disengage, or Hide action.
+Elusive. No attack roll has advantage on the grandfather of
+assassins as long as it isn't incapacitated.
+Evasion. If the grandfather of assassins is subjected to an effect that
+allows it to make a Dexterity saving throw to take only half damage,
+the grandfather of assassins instead takes no damage if it succeeds
+on the saving throw, and only half damage if it fails.
+Sneak Attack. (1/Turn)The grandfather of assassins deals an extra
+35 (10d6) damage when the grandfather of assassins hits a target
+with a weapon attack and has advantage on the attack roll, or when
+the target is within 5 feet of an ally of the grandfather of assassins
+that isn't incapacitated and the grandfather of assassins doesn't have
+disadvantage on the attack roll.
+Stroke of Luck. (Recharges after a Short or Long Rest) If the
+grandfather of assassins misses a target within range, it can turn the
+miss into a hit. Alternatively, if the grandfather of assassins fails an
+ability check, it can treat the d20 roll as a 20.
+Actions
+Multiattack. The grandfather of assassins makes two melee attacks.
+Rapier. Melee Weapon Attack: +14 to hit, reach 5 ft., one target.
+Hit: 11 (1d8 + 7) piercing damage and the target must make a DC
+19 Constitution saving throw, taking 42 (12d6) poison damage on a
+failed save, or half as much damage on a successful one.
+Light Crossbow. Ranged Weapon Attack: +14 to hit, range
+80/320 ft., one target. Hit: 11 (1d8 + 7) piercing damage and the
+target must make a DC 19 Constitution saving throw, taking 42
+(12d6) poison damage on a failed save, or half as much damage on a
+successful one.
+Legendary Actions
+The grandfather of assassins can take 3 legendary actions, choosing
+from the options below. Only one legendary action option can be
+used at a time and only at the end of another creature's turn. The
+grandfather of assassins regains spent legendary actions at the start
+of its turn.
+Shift. The grandfather of assassins moves up to half its speed
+without provoking opportunity attacks.
+Vanish. The grandfather of assassins performs a Hide action. It can
+move up to half its speed before or after this action.
+Attack (Costs 2 Actions). The grandfather of assassins makes a
+melee or ranged weapon attack.
+Reactions
+Uncanny Dodge. The grandfather of assassins halves the damage
+that it takes from an attack that hits it. The grandfather of assassins
+must be able to see the attacker.

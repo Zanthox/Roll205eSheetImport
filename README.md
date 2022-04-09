@@ -26,7 +26,7 @@ Just add it, it is by one of the most prolific roll20 scripters and has a lot of
 
 This will allow our Macro to set the token HP/AC on the token bars, assign the token to our character sheet and set it as the default token for the sheet.
 Do the same for the second script from the library, ChatSetAttr. This is how I am able to set Traits, Legendary Actions, Bonus Actions and Reactions. 
-Next is to add “my” script, select “New Script” next to “Script Library”, and name it something you’ll remember like “StatImport”. Next you need to copy the StatImport.js file.
+Next is to add “my” script, select “New Script” next to “Script Library”, and name it something you’ll remember like “StatImport”. Next you need to copy the ImportStats.js file, most current version.
 Use Ctrl+a and Ctrl+c to select all of that document and copy it, then paste it in your new script in roll20:
 
 ![script save](https://user-images.githubusercontent.com/103297938/162561605-54b977d8-091f-42f9-b500-0ca2ef56e35e.png)

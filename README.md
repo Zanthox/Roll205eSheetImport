@@ -54,7 +54,7 @@ Once you save this, you are ready to go!
 
 Step 1: Get your Monster
 
-First you need your monster. This is two fold. First you need to find it in your PDF, or homebrewery, or wherever else. It will need to be formatted very like that of the original Monster Manual, use the godfatherofassassins.txt file to again copy and paise all.
+First you need your monster. This is two fold. First you need to find it in your PDF, or homebrewery, or wherever else. It will need to be formatted very like that of the original Monster Manual, use the godfatherofassassins.txt file to again copy and paste all into a text editor before roll20's.
 
 Note that spaces and line breaks are VERY IMPORTANT!  Roll20’s text editor also kinda sucks, so I recommend not using that to make edits.
 Here are some of my findings to help with the parsing:

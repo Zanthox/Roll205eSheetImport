@@ -241,7 +241,6 @@
         // Power
         regex = /(?:#|\.\s+)([A-Z][\w-]+(?:\s(?:[A-Z][\w-]+|[\(\)\d/-]|of)+)*)(?=\s*\.)/g;
         while(match = regex.exec(statblock)) {
-            log(match);
             if(keyword.attr[match[1].toLowerCase()] == undefined) {
                 if(match.index < indexAction){
                     keyword.traits[match[1]] = match.index;

@@ -244,7 +244,7 @@
         }
 
         // Power
-        regex = /(?:#\s*)([A-Z]['\w-]+(?:\s(?:[A-Za-z]['\w-]+|\([\w\d/]+\)|-|of)+)*)(?=\s*\.)/g;
+        regex = /(?:#\s*)([A-Z]['\w-]+(?:\s(?:[A-Za-z]['\w-]+|\(.*\))+)*)(?=\s*\.)/g;
         while(match = regex.exec(statblock)) {
             if(keyword.attr[match[1].toLowerCase()] == undefined) {
                 if(match.index < indexAction){

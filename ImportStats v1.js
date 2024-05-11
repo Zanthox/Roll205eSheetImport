@@ -172,7 +172,7 @@
                 characterid: characterId
             });
         } else if(attr.get('current') == undefined || attr.get('current').toString() != currentVal) {
-            log("Updating attribut " + name);
+            log("Updating attribute " + name);
             attr.set({
                 current: currentVal,
                 max: max
@@ -182,9 +182,13 @@
     
     jf.parseStatblock = function(statblock) {
 
+        log("Dirty block:\n " + statblock);
         texte = clean(statblock);
+        log("Cleaned block:\n " + texte);
         var keyword = findKeyword(texte);
+        log("Keywords:\n " +  JSON.stringify(keyword, null, 2));
         var section = splitStatblock(texte, keyword);
+        log("Sections:\n " +  JSON.stringify(section, null, 2));
         jf.setCharacter(section.attr.name.trim(), texte.replace(/#/g, '<br>'), section.bio);
         processSection(section);
         return section.attr.name;
@@ -192,8 +196,9 @@
 
     function clean(statblock) {
         statblock = unescape(statblock);
+        log("Unescaped block:\n " + statblock);
         statblock = statblock.replace(/–/g, '-');
-        statblock = statblock.replace(/<br[^>]*>/g, '#').replace(/(<([^>]+)>)/ig, "");
+        statblock = statblock.replace(/<p>/g, '#').replace(/(<([^>]+)>)/ig, "");
         statblock = statblock.replace(/\s+#\s+/g, '#');
         statblock = statblock.replace(/#(?=[a-z])/g, ' ');
         statblock = statblock.replace(/\s+/g, ' ');
@@ -239,7 +244,7 @@
         }
 
         // Power
-        regex = /(?:#|\.\s+)([A-Z][\w-]+(?:\s(?:[A-Z][\w-]+|[\(\)\d/-]|of)+)*)(?=\s*\.)/g;
+        regex = /(?:#\s*)([A-Z]['\w-]+(?:\s(?:[A-Za-z]['\w-]+|\([\w\d/]+\)|-|of)+)*)(?=\s*\.)/g;
         while(match = regex.exec(statblock)) {
             if(keyword.attr[match[1].toLowerCase()] == undefined) {
                 if(match.index < indexAction){

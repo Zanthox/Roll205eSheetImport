@@ -32,9 +32,10 @@ Use Ctrl+a and Ctrl+c to select all of that document and copy it, then paste it 
 
 ![script save](https://user-images.githubusercontent.com/103297938/162561605-54b977d8-091f-42f9-b500-0ca2ef56e35e.png)
 
-Once you save you are ready to setup a Macro in your roll20 campaign, log into your campaign and select Macros in the upper right, you might never have used this tab before now: 
+Once you save you are ready to setup a Macro in your roll20 campaign, log into your campaign and select Collection in the upper right, you might never have used this tab before now: 
 
-![add macro](https://user-images.githubusercontent.com/103297938/162561612-07b7c3d8-8118-42e8-a4e4-ff2a36732f91.png)
+![add macro](https://github.com/Zanthox/Roll205eSheetImport/assets/2495654/1cc1bceb-a59b-422c-9e0f-2fcb13e18ac2)
+
 
 Use the add button to create a new Macro. Give it a memorable name like “ImportStats” and you can select the “Show as Token Action” checkbox for ease of use but you will likely want to uncheck it whenever you aren't doing your imports to keep it from appearing while you are running games. 
 Paste the text below in the “Actions” section:
@@ -65,8 +66,6 @@ Here are some of my findings to help with the parsing:
 	-Sometimes copying the end of a line to the beginning of the next and pasting that helps.
 	-Making all of an ability’s text a single line is often important if you are having issues.
 	-Traits often isn’t in the text - it can help to add a new line with “Traits” directly between the stat block section and the start of your Traits.
-	-Apostrophes will mess up Ability names, so leave those out. Devil’s Sight messed me up a lot.
-	-For Traits\Actions(of any kind) their names are temperamental, so it is important to avoid parentheses or other non-alphanumeric characters as well as very long names, so as you can see in the example above I have moved them to after the period so that they will be part of the text. Having them in the title of a Trait breaks the formatting and I don't know regex so maybe at some point I will learn and fix this if possible.
 	-For Actions, sometimes you’ll find sheets with the “Spellcasting” under actions instead of traits, I recommend moving it to traits. 
 	-Actions must also start with letter, so not now I have removed the “+2” for his weapons, ‘+’ seems to really mess with the parsing so remove those from attacks.
 	-You can leave your (x/day) at the end of the text in the titles of Actions, as long as they have a space before them.  
